@@ -1,6 +1,7 @@
-baseURL      = "https://www.example.com/"
-title        = "Gallery Deluxe"
+baseURL      = "https://share.kadykov.com/"
+title        = "Shared Photos"
 disableKinds = ["section", "taxonomy", "term"]
+publishDir   = "/mnt/Web"
 
 [params]
     # Set to enable Plausible Analytics.
@@ -19,10 +20,10 @@ disableKinds = ["section", "taxonomy", "term"]
         enable_exif = true
 
         # Optional watermark file for the large images.
-        [params.gallerydeluxe.watermark]
-            image = "images/gopher-hero8.png" # relative to /assets
-            posx  = "left"                    # one of "left", "center", "right"
-            posy  = "bottom"                  # one of "top", "center", "bottom"
+        # [params.gallerydeluxe.watermark]
+        #   image = "images/gopher-hero8.png" # relative to /assets
+        #   posx  = "left"                    # one of "left", "center", "right"
+        #   posy  = "bottom"                  # one of "top", "center", "bottom"
 
 [build]
     [[build.cacheBusters]]
